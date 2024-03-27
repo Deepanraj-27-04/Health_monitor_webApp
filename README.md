@@ -57,8 +57,7 @@ npm install
 - client: Contains the React.js frontend code.
 - server: Contains the Flask backend code.
 - models: Contains machine learning models for health analysis.
-- utils: Contains utility functions used across the application.
-- tests: Contains unit tests for the backend.
+
 
 ## Contributing
 
