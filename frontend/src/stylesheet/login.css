@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+    
+}
+input{
+    width: 400px;
+    height: 40px;
+    padding-left: 0.5rem;
+}
+#login_heading{
+    font-size: 26px !important;
+}
+.whole_body{
+    /* border: 1px solid black; */
+    margin: auto;
+    /* border: 1px solid black; */
+    width: 700px;
+    margin-top:5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 30px;
+}
+button{
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #1c91cd;
+    color: white;
+}
+#basic_weights input{
+    width: 60px;
+    height: 30px !important;
+
+}
+#basic_weights{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    /* border: 1px solid black; */
+    width: 400px;
+}
+#basic_weigth_name {
+    font-size: 12px !important;
+
+    /* border: 1px solid black; */
+}
+
+#whole_basic_weights{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+#radio-input{
+    display: flex;
+
+    
+}
+#radio-input input{
+    width: 15px;
+    
+    
+}
+#radio-input>div{
+    display: flex;
+    align-items: center;
+    /* gap: 3rem; */
+}
+#radio-input{
+
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+#button{
+    width: 100px;
+    border-radius: 20px;
+    background-color: #1c91cd;
+    color: white;
+    border: none;
+}
